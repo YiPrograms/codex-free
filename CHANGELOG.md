@@ -6,6 +6,8 @@ follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.9.0] - 2026-09-15
+
 ### Added
 
 - Multi-project `set_project_root` now accepts HTTPS GitHub commit URLs
@@ -472,7 +474,8 @@ filename sort uses byte/Unicode ordering rather than `localeCompare`;
 `write_file` reports UTF-8 byte counts; `exec_command` uses plain pipes, not a
 PTY. See the README's "Notes on the port" for the full list.
 
-[Unreleased]: https://github.com/hypnguyen1209/codex-free/compare/v1.8.0...HEAD
+[Unreleased]: https://github.com/hypnguyen1209/codex-free/compare/v1.9.0...HEAD
+[1.9.0]: https://github.com/hypnguyen1209/codex-free/compare/v1.8.0...v1.9.0
 [1.8.0]: https://github.com/hypnguyen1209/codex-free/compare/v1.7.0...v1.8.0
 [1.7.0]: https://github.com/hypnguyen1209/codex-free/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/hypnguyen1209/codex-free/compare/v1.5.0...v1.6.0
