@@ -254,9 +254,11 @@ impl ServerHandler for CodexHandler {
         _request: Option<PaginatedRequestParams>,
         _context: RequestContext<RoleServer>,
     ) -> Result<ListResourcesResult, McpError> {
-        Ok(ListResourcesResult::with_all_items(vec![review_ui::resource()])
-            .with_ttl_ms(0)
-            .with_cache_scope(CacheScope::Private))
+        Ok(
+            ListResourcesResult::with_all_items(vec![review_ui::resource()])
+                .with_ttl_ms(0)
+                .with_cache_scope(CacheScope::Private),
+        )
     }
 
     async fn read_resource(
